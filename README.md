@@ -6,7 +6,7 @@ This project presents a complete Brain-Computer Interface (BCI) pipeline for Ele
 
 The project utilizes scientific Python libraries including **MNE**, **Scikit-learn**, **PyTorch**, and **PyTorch Lightning** to build a reproducible EEG preprocessing workflow.
 
----
+
 
 ## Project Information
 
@@ -21,7 +21,7 @@ The project utilizes scientific Python libraries including **MNE**, **Scikit-lea
 | EEG Processing Library  | MNE                            |
 | Machine Learning        | Scikit-learn                   |
 
----
+
 
 ## Project Objectives
 
@@ -33,7 +33,7 @@ The project utilizes scientific Python libraries including **MNE**, **Scikit-lea
 * Build an efficient preprocessing pipeline compatible with ChronoNet.
 * Generate scientific visualizations for EEG analysis.
 
----
+
 
 ## Dataset Structure
 
@@ -53,7 +53,7 @@ Each EEG recording contains:
 | Recording Duration | 120 Seconds |
 | Signal Shape       | (14, 15360) |
 
----
+
 
 ## Project Workflow
 
@@ -94,7 +94,7 @@ Tensor Conversion
 ChronoNet Training
 ```
 
----
+
 
 ## EEG Preprocessing Pipeline
 
@@ -112,7 +112,7 @@ ChronoNet Training
 | Standardization       | Normalize EEG features                       |
 | Tensor Preparation    | Convert data into PyTorch tensors            |
 
----
+
 
 ## Data Preparation
 
@@ -124,7 +124,7 @@ The preprocessing stage generates three arrays for model training.
 | label_array | Binary class labels                |
 | group_array | Subject identifiers for GroupKFold |
 
----
+
 
 ## Technologies Used
 
@@ -139,7 +139,7 @@ The preprocessing stage generates three arrays for model training.
 | Training Framework  | PyTorch Lightning   |
 | Utilities           | tqdm                |
 
----
+
 
 ## Visual Analysis
 
@@ -155,7 +155,7 @@ The notebook includes multiple visualization techniques for EEG exploration.
 | Channel Correlation Matrix | Investigate spatial relationships        |
 | Dataset Distribution       | Verify class balance                     |
 
----
+
 
 ## Project Structure
 
@@ -181,7 +181,7 @@ BCI-EEG-Signal-Classification/
 └── README.md
 ```
 
----
+
 
 ## Installation
 
@@ -217,7 +217,7 @@ Install project dependencies.
 pip install -r requirements.txt
 ```
 
----
+
 
 ## Current Progress
 
@@ -236,7 +236,7 @@ pip install -r requirements.txt
 | Model Training          | In Progress |
 | Performance Evaluation  | Pending     |
 
----
+
 
 ## Future Work
 
@@ -247,7 +247,7 @@ pip install -r requirements.txt
 * Compare ChronoNet with other deep learning architectures.
 * Investigate explainable AI techniques for EEG classification.
 
----
+
 
 ## Author
 
