@@ -1,0 +1,14 @@
+numpy
+scipy
+pandas
+matplotlib
+scikit-learn
+tensorflow
+keras
+mne
+notebook
+jupyter
+ipykernel
+tqdm
+h5py
+joblib
