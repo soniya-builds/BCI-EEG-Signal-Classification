@@ -1,55 +1,37 @@
 # Virtual Environment
 env/
 venv/
+.venv/
 
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
+.ipynb_checkpoints/
 
 # Jupyter
 .ipynb_checkpoints/
 
+# Dataset
+CleanData_TDC/
+CleanData_IDD/
+RawData/
+Data/
+dataset/
+datasets/
+
+# MATLAB files
+*.mat
+
+# NumPy files
+*.npy
+*.npz
+
+# OS files
+.DS_Store
+Thumbs.db
+
 # VS Code
 .vscode/
 
-# macOS
-.DS_Store
-
-# Windows
-Thumbs.db
-
-# Python environments
-.python-version
-
-# Build
-build/
-dist/
-*.egg-info/
-
 # Logs
 *.log
-
-# Model checkpoints
-*.h5
-*.keras
-*.ckpt
-
-# TensorBoard
-logs/
-
-# Cached feature files
-*.npy
-*.npz
-*.pkl
-
-# Large datasets
-*.zip
-*.7z
-
-# MATLAB files (if generated)
-*.fig
-
-# Temporary
-temp/
-tmp/
